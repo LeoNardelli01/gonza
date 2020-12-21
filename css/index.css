@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: rgba(153, 153, 153, 0.48);
+  position: fixed;
+
+}
+
+.foto{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/img/fondo.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto .circulo h1{
+  color: white;
+
+}
+.circulo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 7px white, -5px -5px 7px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.flecha{
+  position: absolute;
+  bottom: 10px;
+  animation-duration: 3s;
+  animation-name: flecha-abajo;
+  animation-iteration-count: infinite;
+}
+.flecha img{
+  width: 50px;
+}
+
+@keyframes flecha-abajo {
+
+}
+
+.lugares{
+  padding: 25px;
+}
+.lugares h2{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+}
+
+.productos{
+  width: 100%;
+  height: 100%;
+
+
+}
+.contenedor-productos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.producto{
+  width: 80%;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.parrafo{
+
+
+}
+
+.producto:hover{
+  box-shadow: 2px 2px 5px grey;
+  width: 85%;
+  height: 102px;
+}
+.producto-1{
+  
+  background-image: url("../assets/img/buzios.jpg");
+}
+.producto-2{
+  background-image: url("../assets/img/rio.jpg");
+}
+.producto-3{
+  background-image: url("../assets/img/favela.jpg");
+}
+
+.producto-4{
+   background-image: url("..assets/img");
+}
+
+.producto-5{
+   background-image: url("..assets/img");
+}
+
+.producto-6{
+   background-image: url("..assets/img");
+}
+
+.producto-7{
+   background-image: url("..assets/img");
+}
+.producto-8{
+   background-image: url("..assets/img");
+}
+.producto-9{
+   background-image: url("..assets/img");
+}
+.producto-10{
+   background-image: url("..assets/img");
+
+}
+
+.info{
+  width: 100%;
+  height: 100%;
+
+}

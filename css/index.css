@@ -87,7 +87,7 @@ header{
   flex-direction: column;
 }
 .parrafo{
-
+ color: black;
 
 }
 
@@ -97,7 +97,7 @@ header{
   height: 102px;
 }
 .producto-1{
-  
+
   background-image: url("../assets/img/buzios.jpg");
 }
 .producto-2{
